@@ -99,4 +99,4 @@ async def predictive_model(output_column: str, file: UploadFile = File(...), enc
 
 if __name__ == "__main__":
     import uvicorn
-    uvicorn.run(app, host="127.0.0.1", port=8000)
+    uvicorn.run(app, host="o.0.0.0", port=8000)
